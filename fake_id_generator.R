@@ -65,4 +65,4 @@ pan = paste(stringi::stri_rand_strings(n=1, length=3, pattern="[A-Z]"),
 aadhaar = unname(CheckDigit::AppendCheckDigit(stringi::stri_rand_strings(n=1, length=11, pattern="[0-9]"),
             'Verhoeff'))
 
-rm(url)
+rm(url,rand)
